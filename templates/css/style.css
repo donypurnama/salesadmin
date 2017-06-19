@@ -1,0 +1,138 @@
+@media print{
+	.noprint{	display:none;	}
+}
+
+@media screen{
+	.noscr {display:none; }
+}
+
+
+
+.message {
+	font-size:10pt;
+	color:red;
+    FONT-FAMILY: Tahoma, Arial, Verdana ;	
+}
+.small
+{
+   font-size:9pt;
+   FONT-FAMILY: Tahoma, Arial, Verdana ;
+}
+
+.smallmed
+{
+   font-size:10.5pt;
+   FONT-FAMILY: Tahoma, Arial, Verdana ;
+}
+
+.smalllest
+{
+   font-size:8pt;
+   FONT-FAMILY: Tahoma, Arial, Verdana ;
+}
+
+A.smalllink
+{
+	 COLOR: blue;
+	font-size:9pt;
+	
+   FONT-FAMILY: Tahoma, Arial, Verdana ;	
+}
+A.smalllink:hover
+{
+	font-size:9pt;
+	COLOR: red;
+	FONT-FAMILY: Tahoma, Arial, Verdana ;	
+}
+
+A.verysmalllink
+{
+    FONT-SIZE: xx-small;
+    COLOR: blue;
+    FONT-FAMILY: Tahoma, Verdana, Arial;
+	
+}
+
+
+.big
+{
+    FONT-SIZE: medium;
+    FONT-FAMILY: Tahoma, Verdana, Arial
+}
+
+
+.tBox {
+	
+	 /*width:220px;
+	margin-top:3px;
+   	color:#EFEFEF;  #00008b*/
+	border-bottom-color:#b6cefb;
+	border-left-color:#b6cefb;
+	border-right-color:#b6cefb;
+	border-top-color:#b6cefb;
+	font-size:12px;
+
+}
+
+.box {
+	width:220px;
+padding:10px;
+border:5px solid gray;
+margin:0px;
+	
+}
+
+.formBox {
+	width:220px;
+	border:5px solid gray;
+	margin:0px;
+	padding-top: 10px;
+}
+
+.forms
+{
+    BORDER-RIGHT: black thin solid;
+    BORDER-TOP: black thin solid;
+    font-size:11px;
+    BORDER-LEFT: black thin solid;
+    BORDER-BOTTOM: black thin solid;
+    FONT-FAMILY: Tahoma, Verdana, Arial
+}
+.tagforms
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Tahoma, Verdana, Arial
+}
+
+A.pagemenu:hover
+{
+    FONT-SIZE: x-small;
+    COLOR: yellow;
+    FONT-FAMILY: Tahoma, Verdana, Arial;
+    TEXT-DECORATION: underline
+}
+a.pagemenu{
+    FONT-SIZE: x-small;
+    COLOR: blue;
+    FONT-FAMILY: Tahoma, Verdana, Arial;
+    TEXT-DECORATION: underline
+}
+A.menu
+{
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Tahoma, Verdana, Arial;
+    TEXT-DECORATION: none
+}
+.header
+{
+   font-size:10pt;
+    COLOR: #00008b;
+    FONT-FAMILY: Tahoma, Verdana, Arial
+}
+.receipt
+{
+	font-weight: bold;
+	font-size: small;
+	font-family: Tahoma, Verdana, Arial;
+}

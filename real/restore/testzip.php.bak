@@ -1,0 +1,14 @@
+<?php
+$zip = new ZipArchive;
+$res = $zip->open('test.zip', ZipArchive::CREATE);
+if ($res === TRUE) {
+    
+    $zip->addFile('tb_commgroup.MYD', 'tb_commgroup.MYD');
+	$zip->addFile('tb_commgroup.MYI', 'tb_commgroup.MYI');
+	$zip->addFile('tb_commgroup.frm', 'tb_commgroup.frm');
+    $zip->close();
+    echo 'ok';
+} else {
+    echo 'failed';
+}
+?> 
